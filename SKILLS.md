@@ -1,0 +1,1 @@
+Python, Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, Scikit-learn, XGBoost, NetworkX, MATLAB, Statistical Analysis, Data Visualization, Machine Learning, Predictive Modeling, Network Analysis, Optical Networks, Cost Optimization, Jupyter Notebooks, LaTeX
