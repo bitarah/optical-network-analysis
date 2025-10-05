@@ -1,0 +1,7 @@
+[
+  "path_cost",
+  "path_distance",
+  "path_hops",
+  "path_regenerators",
+  "path_osnr"
+]

@@ -1,0 +1,107 @@
+{
+  "algorithms": {
+    "Dijkstra": {
+      "algorithm_name": "Dijkstra",
+      "avg_cost": 8748905.09,
+      "std_cost": 3565329.69,
+      "avg_time": 0.0853,
+      "std_time": 0.0672,
+      "avg_distance": 431.34,
+      "avg_regenerators": 2.44,
+      "success_rate": 90.0,
+      "total_problems": 10,
+      "successful_problems": 9,
+      "failed_problems": 1,
+      "cost_deviation_from_dijkstra": null,
+      "time_vs_dijkstra": null
+    },
+    "A*": {
+      "algorithm_name": "A*",
+      "avg_cost": 8748905.09,
+      "std_cost": 3565329.69,
+      "avg_time": 0.2109,
+      "std_time": 0.0601,
+      "avg_distance": 431.34,
+      "avg_regenerators": 2.44,
+      "success_rate": 90.0,
+      "total_problems": 10,
+      "successful_problems": 9,
+      "failed_problems": 1,
+      "cost_deviation_from_dijkstra": 0.0,
+      "time_vs_dijkstra": 2.47
+    },
+    "Random Forest": {
+      "algorithm_name": "Random Forest",
+      "avg_cost": 8748905.09,
+      "std_cost": 3565329.69,
+      "avg_time": 0.0638,
+      "std_time": 0.0157,
+      "avg_distance": 431.34,
+      "avg_regenerators": 2.44,
+      "success_rate": 90.0,
+      "total_problems": 10,
+      "successful_problems": 9,
+      "failed_problems": 1,
+      "cost_deviation_from_dijkstra": 0.0,
+      "time_vs_dijkstra": 0.75
+    },
+    "XGBoost": {
+      "algorithm_name": "XGBoost",
+      "avg_cost": 8748905.09,
+      "std_cost": 3565329.69,
+      "avg_time": 0.0608,
+      "std_time": 0.0147,
+      "avg_distance": 431.34,
+      "avg_regenerators": 2.44,
+      "success_rate": 90.0,
+      "total_problems": 10,
+      "successful_problems": 9,
+      "failed_problems": 1,
+      "cost_deviation_from_dijkstra": 0.0,
+      "time_vs_dijkstra": 0.71
+    },
+    "Neural Network": {
+      "algorithm_name": "Neural Network",
+      "avg_cost": 8748905.09,
+      "std_cost": 3565329.69,
+      "avg_time": 0.0601,
+      "std_time": 0.0139,
+      "avg_distance": 431.34,
+      "avg_regenerators": 2.44,
+      "success_rate": 90.0,
+      "total_problems": 10,
+      "successful_problems": 9,
+      "failed_problems": 1,
+      "cost_deviation_from_dijkstra": 0.0,
+      "time_vs_dijkstra": 0.7
+    }
+  },
+  "networks": [
+    {
+      "network_id": 0,
+      "n_nodes": 20,
+      "n_edges": 45,
+      "topology_type": "geometric",
+      "avg_edge_cost": 2607525.9053333336,
+      "total_problems": 10,
+      "avg_computation_time": {
+        "Dijkstra": 8.532736036512587e-05,
+        "A*": 0.0002109474605984158,
+        "Random Forest": 6.381670633951823e-05,
+        "XGBoost": 6.0823228624131945e-05,
+        "Neural Network": 6.0134463840060765e-05
+      }
+    }
+  ],
+  "summary": {
+    "total_problems": 10,
+    "total_networks": 1,
+    "algorithms_evaluated": [
+      "Dijkstra",
+      "A*",
+      "Random Forest",
+      "XGBoost",
+      "Neural Network"
+    ]
+  }
+}

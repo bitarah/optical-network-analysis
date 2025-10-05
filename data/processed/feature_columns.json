@@ -1,0 +1,16 @@
+[
+  "n_nodes",
+  "n_edges",
+  "avg_degree",
+  "network_density",
+  "source_degree",
+  "target_degree",
+  "euclidean_distance",
+  "shortest_path_hops",
+  "avg_edge_cost",
+  "max_edge_cost",
+  "min_edge_cost",
+  "source_betweenness",
+  "target_betweenness",
+  "n_alternative_paths"
+]

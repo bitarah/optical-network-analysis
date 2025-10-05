@@ -1,0 +1,610 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "network_id": 6,
+    "topology_type": "scale_free",
+    "n_nodes": 20,
+    "n_edges": 36
+  },
+  "nodes": [
+    {
+      "pos": [
+        469.30989731912115,
+        1243.2738689947241
+      ],
+      "type": "core",
+      "capacity_gbps": 100,
+      "has_regenerator": true,
+      "id": 0
+    },
+    {
+      "pos": [
+        509.32874389544503,
+        1357.355207249079
+      ],
+      "type": "aggregation",
+      "capacity_gbps": 40,
+      "has_regenerator": true,
+      "id": 1
+    },
+    {
+      "pos": [
+        702.470573957415,
+        860.5687286841037
+      ],
+      "type": "core",
+      "capacity_gbps": 100,
+      "has_regenerator": true,
+      "id": 2
+    },
+    {
+      "pos": [
+        560.6608577025078,
+        176.29869474216514
+      ],
+      "type": "core",
+      "capacity_gbps": 100,
+      "has_regenerator": true,
+      "id": 3
+    },
+    {
+      "pos": [
+        222.73913323092373,
+        698.4622008528845
+      ],
+      "type": "core",
+      "capacity_gbps": 100,
+      "has_regenerator": true,
+      "id": 4
+    },
+    {
+      "pos": [
+        1149.0057082160426,
+        722.2311742366188
+      ],
+      "type": "aggregation",
+      "capacity_gbps": 40,
+      "has_regenerator": true,
+      "id": 5
+    },
+    {
+      "pos": [
+        930.4441376840971,
+        528.5472624928703
+      ],
+      "type": "aggregation",
+      "capacity_gbps": 40,
+      "has_regenerator": true,
+      "id": 6
+    },
+    {
+      "pos": [
+        713.3254999758403,
+        293.73864450111967
+      ],
+      "type": "access",
+      "capacity_gbps": 10,
+      "has_regenerator": true,
+      "id": 7
+    },
+    {
+      "pos": [
+        641.757765593615,
+        207.36352259527578
+      ],
+      "type": "aggregation",
+      "capacity_gbps": 40,
+      "has_regenerator": true,
+      "id": 8
+    },
+    {
+      "pos": [
+        58.2528902886506,
+        128.6981291239421
+      ],
+      "type": "core",
+      "capacity_gbps": 100,
+      "has_regenerator": true,
+      "id": 9
+    },
+    {
+      "pos": [
+        335.04145838098543,
+        855.8585529202036
+      ],
+      "type": "aggregation",
+      "capacity_gbps": 40,
+      "has_regenerator": true,
+      "id": 10
+    },
+    {
+      "pos": [
+        1028.2722779145604,
+        924.2335419976886
+      ],
+      "type": "access",
+      "capacity_gbps": 10,
+      "has_regenerator": true,
+      "id": 11
+    },
+    {
+      "pos": [
+        902.5645789793651,
+        525.3630183503466
+      ],
+      "type": "aggregation",
+      "capacity_gbps": 40,
+      "has_regenerator": true,
+      "id": 12
+    },
+    {
+      "pos": [
+        597.3930570881549,
+        630.464364742162
+      ],
+      "type": "access",
+      "capacity_gbps": 10,
+      "has_regenerator": true,
+      "id": 13
+    },
+    {
+      "pos": [
+        1066.3513616930302,
+        229.45639223273352
+      ],
+      "type": "access",
+      "capacity_gbps": 10,
+      "has_regenerator": true,
+      "id": 14
+    },
+    {
+      "pos": [
+        1238.172204916954,
+        58.75008514486854
+      ],
+      "type": "access",
+      "capacity_gbps": 10,
+      "has_regenerator": true,
+      "id": 15
+    },
+    {
+      "pos": [
+        963.2293246401239,
+        238.70426202048853
+      ],
+      "type": "aggregation",
+      "capacity_gbps": 40,
+      "has_regenerator": true,
+      "id": 16
+    },
+    {
+      "pos": [
+        1211.6326454519237,
+        413.02383371754786
+      ],
+      "type": "access",
+      "capacity_gbps": 10,
+      "has_regenerator": true,
+      "id": 17
+    },
+    {
+      "pos": [
+        1211.7773419066334,
+        451.22037157026404
+      ],
+      "type": "access",
+      "capacity_gbps": 10,
+      "has_regenerator": true,
+      "id": 18
+    },
+    {
+      "pos": [
+        1022.9556685965499,
+        1492.1605313073944
+      ],
+      "type": "access",
+      "capacity_gbps": 10,
+      "has_regenerator": true,
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "distance": 155.19,
+      "attenuation_db": 37.498,
+      "fiber_cost": 3103894.54,
+      "n_regenerators": 1,
+      "regenerator_cost": 50000,
+      "total_cost": 3153894.54,
+      "utilization": 0.3,
+      "source": 0,
+      "target": 1
+    },
+    {
+      "distance": 501.02,
+      "attenuation_db": 127.671,
+      "fiber_cost": 10020472.21,
+      "n_regenerators": 4,
+      "regenerator_cost": 200000,
+      "total_cost": 10220472.21,
+      "utilization": 0.51,
+      "source": 0,
+      "target": 2
+    },
+    {
+      "distance": 1372.69,
+      "attenuation_db": 336.517,
+      "fiber_cost": 27453753.97,
+      "n_regenerators": 11,
+      "regenerator_cost": 550000,
+      "total_cost": 28003753.97,
+      "utilization": 0.21,
+      "source": 0,
+      "target": 3
+    },
+    {
+      "distance": 661.97,
+      "attenuation_db": 163.345,
+      "fiber_cost": 13239427.22,
+      "n_regenerators": 5,
+      "regenerator_cost": 250000,
+      "total_cost": 13489427.22,
+      "utilization": 0.68,
+      "source": 0,
+      "target": 4
+    },
+    {
+      "distance": 1034.17,
+      "attenuation_db": 268.615,
+      "fiber_cost": 20683431.85,
+      "n_regenerators": 8,
+      "regenerator_cost": 400000,
+      "total_cost": 21083431.85,
+      "utilization": 0.41,
+      "source": 0,
+      "target": 6
+    },
+    {
+      "distance": 801.69,
+      "attenuation_db": 198.072,
+      "fiber_cost": 16033714.23,
+      "n_regenerators": 6,
+      "regenerator_cost": 300000,
+      "total_cost": 16333714.23,
+      "utilization": 0.7,
+      "source": 0,
+      "target": 11
+    },
+    {
+      "distance": 988.21,
+      "attenuation_db": 238.225,
+      "fiber_cost": 19764228.55,
+      "n_regenerators": 8,
+      "regenerator_cost": 400000,
+      "total_cost": 20164228.55,
+      "utilization": 0.64,
+      "source": 0,
+      "target": 12
+    },
+    {
+      "distance": 696.27,
+      "attenuation_db": 166.958,
+      "fiber_cost": 13925330.6,
+      "n_regenerators": 5,
+      "regenerator_cost": 250000,
+      "total_cost": 14175330.6,
+      "utilization": 0.38,
+      "source": 0,
+      "target": 13
+    },
+    {
+      "distance": 1553.62,
+      "attenuation_db": 395.762,
+      "fiber_cost": 31072413.03,
+      "n_regenerators": 12,
+      "regenerator_cost": 600000,
+      "total_cost": 31672413.03,
+      "utilization": 0.33,
+      "source": 0,
+      "target": 15
+    },
+    {
+      "distance": 1390.9,
+      "attenuation_db": 351.436,
+      "fiber_cost": 27817914.4,
+      "n_regenerators": 11,
+      "regenerator_cost": 550000,
+      "total_cost": 28367914.4,
+      "utilization": 0.66,
+      "source": 0,
+      "target": 16
+    },
+    {
+      "distance": 1319.28,
+      "attenuation_db": 333.663,
+      "fiber_cost": 26385608.36,
+      "n_regenerators": 10,
+      "regenerator_cost": 500000,
+      "total_cost": 26885608.36,
+      "utilization": 0.46,
+      "source": 1,
+      "target": 3
+    },
+    {
+      "distance": 1088.24,
+      "attenuation_db": 267.646,
+      "fiber_cost": 21764886.97,
+      "n_regenerators": 9,
+      "regenerator_cost": 450000,
+      "total_cost": 22214886.97,
+      "utilization": 0.11,
+      "source": 1,
+      "target": 6
+    },
+    {
+      "distance": 641.18,
+      "attenuation_db": 164.211,
+      "fiber_cost": 12823529.31,
+      "n_regenerators": 5,
+      "regenerator_cost": 250000,
+      "total_cost": 13073529.31,
+      "utilization": 0.31,
+      "source": 2,
+      "target": 4
+    },
+    {
+      "distance": 678.58,
+      "attenuation_db": 170.9,
+      "fiber_cost": 13571674.58,
+      "n_regenerators": 5,
+      "regenerator_cost": 250000,
+      "total_cost": 13821674.58,
+      "utilization": 0.27,
+      "source": 2,
+      "target": 7
+    },
+    {
+      "distance": 758.33,
+      "attenuation_db": 198.762,
+      "fiber_cost": 15166640.74,
+      "n_regenerators": 6,
+      "regenerator_cost": 300000,
+      "total_cost": 15466640.74,
+      "utilization": 0.37,
+      "source": 2,
+      "target": 8
+    },
+    {
+      "distance": 1085.51,
+      "attenuation_db": 267.609,
+      "fiber_cost": 21710297.15,
+      "n_regenerators": 9,
+      "regenerator_cost": 450000,
+      "total_cost": 22160297.15,
+      "utilization": 0.12,
+      "source": 2,
+      "target": 9
+    },
+    {
+      "distance": 405.99,
+      "attenuation_db": 104.533,
+      "fiber_cost": 8119788.5,
+      "n_regenerators": 3,
+      "regenerator_cost": 150000,
+      "total_cost": 8269788.5,
+      "utilization": 0.58,
+      "source": 2,
+      "target": 10
+    },
+    {
+      "distance": 1112.57,
+      "attenuation_db": 270.953,
+      "fiber_cost": 22251377.03,
+      "n_regenerators": 9,
+      "regenerator_cost": 450000,
+      "total_cost": 22701377.03,
+      "utilization": 0.26,
+      "source": 2,
+      "target": 15
+    },
+    {
+      "distance": 1041.51,
+      "attenuation_db": 265.964,
+      "fiber_cost": 20830112.92,
+      "n_regenerators": 8,
+      "regenerator_cost": 400000,
+      "total_cost": 21230112.92,
+      "utilization": 0.46,
+      "source": 3,
+      "target": 5
+    },
+    {
+      "distance": 111.68,
+      "attenuation_db": 27.623,
+      "fiber_cost": 2233616.36,
+      "n_regenerators": 0,
+      "regenerator_cost": 0,
+      "total_cost": 2233616.36,
+      "utilization": 0.22,
+      "source": 3,
+      "target": 8
+    },
+    {
+      "distance": 630.72,
+      "attenuation_db": 156.914,
+      "fiber_cost": 12614491.66,
+      "n_regenerators": 5,
+      "regenerator_cost": 250000,
+      "total_cost": 12864491.66,
+      "utilization": 0.17,
+      "source": 3,
+      "target": 9
+    },
+    {
+      "distance": 781.52,
+      "attenuation_db": 191.063,
+      "fiber_cost": 15630436.05,
+      "n_regenerators": 6,
+      "regenerator_cost": 300000,
+      "total_cost": 15930436.05,
+      "utilization": 0.59,
+      "source": 3,
+      "target": 18
+    },
+    {
+      "distance": 1066.44,
+      "attenuation_db": 264.934,
+      "fiber_cost": 21328854.44,
+      "n_regenerators": 8,
+      "regenerator_cost": 400000,
+      "total_cost": 21728854.44,
+      "utilization": 0.24,
+      "source": 4,
+      "target": 5
+    },
+    {
+      "distance": 989.57,
+      "attenuation_db": 257.706,
+      "fiber_cost": 19791385.46,
+      "n_regenerators": 8,
+      "regenerator_cost": 400000,
+      "total_cost": 20191385.46,
+      "utilization": 0.27,
+      "source": 4,
+      "target": 11
+    },
+    {
+      "distance": 1072.45,
+      "attenuation_db": 259.677,
+      "fiber_cost": 21449070.54,
+      "n_regenerators": 8,
+      "regenerator_cost": 400000,
+      "total_cost": 21849070.54,
+      "utilization": 0.18,
+      "source": 4,
+      "target": 14
+    },
+    {
+      "distance": 691.24,
+      "attenuation_db": 180.329,
+      "fiber_cost": 13824856.13,
+      "n_regenerators": 5,
+      "regenerator_cost": 250000,
+      "total_cost": 14074856.13,
+      "utilization": 0.44,
+      "source": 5,
+      "target": 7
+    },
+    {
+      "distance": 394.86,
+      "attenuation_db": 100.927,
+      "fiber_cost": 7897147.49,
+      "n_regenerators": 3,
+      "regenerator_cost": 150000,
+      "total_cost": 8047147.49,
+      "utilization": 0.3,
+      "source": 6,
+      "target": 17
+    },
+    {
+      "distance": 529.03,
+      "attenuation_db": 137.539,
+      "fiber_cost": 10580532.47,
+      "n_regenerators": 4,
+      "regenerator_cost": 200000,
+      "total_cost": 10780532.47,
+      "utilization": 0.68,
+      "source": 8,
+      "target": 12
+    },
+    {
+      "distance": 942.91,
+      "attenuation_db": 232.416,
+      "fiber_cost": 18858268.43,
+      "n_regenerators": 7,
+      "regenerator_cost": 350000,
+      "total_cost": 19208268.43,
+      "utilization": 0.35,
+      "source": 9,
+      "target": 10
+    },
+    {
+      "distance": 826.03,
+      "attenuation_db": 213.421,
+      "fiber_cost": 16520595.24,
+      "n_regenerators": 6,
+      "regenerator_cost": 300000,
+      "total_cost": 16820595.24,
+      "utilization": 0.65,
+      "source": 9,
+      "target": 13
+    },
+    {
+      "distance": 1944.35,
+      "attenuation_db": 481.613,
+      "fiber_cost": 38887010.13,
+      "n_regenerators": 16,
+      "regenerator_cost": 800000,
+      "total_cost": 39687010.13,
+      "utilization": 0.3,
+      "source": 9,
+      "target": 19
+    },
+    {
+      "distance": 1110.72,
+      "attenuation_db": 273.5,
+      "fiber_cost": 22214394.22,
+      "n_regenerators": 9,
+      "regenerator_cost": 450000,
+      "total_cost": 22664394.22,
+      "utilization": 0.38,
+      "source": 10,
+      "target": 16
+    },
+    {
+      "distance": 1151.57,
+      "attenuation_db": 292.08,
+      "fiber_cost": 23031362.31,
+      "n_regenerators": 9,
+      "regenerator_cost": 450000,
+      "total_cost": 23481362.31,
+      "utilization": 0.61,
+      "source": 10,
+      "target": 19
+    },
+    {
+      "distance": 421.41,
+      "attenuation_db": 103.078,
+      "fiber_cost": 8428265.61,
+      "n_regenerators": 3,
+      "regenerator_cost": 150000,
+      "total_cost": 8578265.61,
+      "utilization": 0.47,
+      "source": 12,
+      "target": 14
+    },
+    {
+      "distance": 409.02,
+      "attenuation_db": 100.581,
+      "fiber_cost": 8180449.5,
+      "n_regenerators": 3,
+      "regenerator_cost": 150000,
+      "total_cost": 8330449.5,
+      "utilization": 0.12,
+      "source": 12,
+      "target": 18
+    },
+    {
+      "distance": 372.71,
+      "attenuation_db": 94.883,
+      "fiber_cost": 7454230.23,
+      "n_regenerators": 3,
+      "regenerator_cost": 150000,
+      "total_cost": 7604230.23,
+      "utilization": 0.42,
+      "source": 16,
+      "target": 17
+    }
+  ]
+}
