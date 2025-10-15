@@ -224,9 +224,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Author
 
 Bita Rahmatzadeh
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn]
-- GitHub: [@bitarahmatzade](https://github.com/bitarahmatzade)
+- Portfolio: [My Portfolio](https://bitarah.github.io/)
+- LinkedIn: [My LinkedIn](https://www.linkedin.com/in/bita-rahmat-zadeh-240a3b1b0/)
+- GitHub: [@bitarah](https://github.com/bitarah)
 
 ## Acknowledgments
 

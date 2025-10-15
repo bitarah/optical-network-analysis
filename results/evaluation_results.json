@@ -4,8 +4,8 @@
       "algorithm_name": "Dijkstra",
       "avg_cost": 18376194.41,
       "std_cost": 13367228.29,
-      "avg_time": 0.1206,
-      "std_time": 0.0728,
+      "avg_time": 0.1385,
+      "std_time": 0.0831,
       "avg_distance": 904.1,
       "avg_regenerators": 5.88,
       "success_rate": 100.0,
@@ -19,8 +19,8 @@
       "algorithm_name": "A*",
       "avg_cost": 18376194.41,
       "std_cost": 13367228.29,
-      "avg_time": 0.4512,
-      "std_time": 0.2693,
+      "avg_time": 0.473,
+      "std_time": 0.2883,
       "avg_distance": 904.1,
       "avg_regenerators": 5.88,
       "success_rate": 100.0,
@@ -28,37 +28,37 @@
       "successful_problems": 500,
       "failed_problems": 0,
       "cost_deviation_from_dijkstra": 0.0,
-      "time_vs_dijkstra": 3.74
+      "time_vs_dijkstra": 3.41
     },
     "Random Forest": {
       "algorithm_name": "Random Forest",
-      "avg_cost": 18376194.41,
-      "std_cost": 13367228.29,
-      "avg_time": 14.4911,
-      "std_time": 0.7979,
-      "avg_distance": 904.1,
-      "avg_regenerators": 5.88,
+      "avg_cost": 76553017.64,
+      "std_cost": 89127570.56,
+      "avg_time": 1000.3121,
+      "std_time": 871.4815,
+      "avg_distance": 3766.62,
+      "avg_regenerators": 24.41,
       "success_rate": 100.0,
       "total_problems": 500,
       "successful_problems": 500,
       "failed_problems": 0,
-      "cost_deviation_from_dijkstra": 0.0,
-      "time_vs_dijkstra": 120.12
+      "cost_deviation_from_dijkstra": 316.59,
+      "time_vs_dijkstra": 7222.09
     },
     "XGBoost": {
       "algorithm_name": "XGBoost",
-      "avg_cost": 18376194.41,
-      "std_cost": 13367228.29,
-      "avg_time": 1.422,
-      "std_time": 0.4196,
-      "avg_distance": 904.1,
-      "avg_regenerators": 5.88,
+      "avg_cost": 79186296.96,
+      "std_cost": 89984962.24,
+      "avg_time": 112.9802,
+      "std_time": 123.343,
+      "avg_distance": 3896.38,
+      "avg_regenerators": 25.17,
       "success_rate": 100.0,
       "total_problems": 500,
       "successful_problems": 500,
       "failed_problems": 0,
-      "cost_deviation_from_dijkstra": 0.0,
-      "time_vs_dijkstra": 11.79
+      "cost_deviation_from_dijkstra": 330.92,
+      "time_vs_dijkstra": 815.7
     }
   },
   "networks": [
@@ -70,10 +70,10 @@
       "avg_edge_cost": 4597360.292380952,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 0.0002170562744140625,
-        "A*": 0.0007000494003295898,
-        "Random Forest": 0.015342254638671875,
-        "XGBoost": 0.00219637393951416
+        "Dijkstra": 0.0002636861801147461,
+        "A*": 0.0007947540283203125,
+        "Random Forest": 2.0619197511672973,
+        "XGBoost": 0.3211706829071045
       }
     },
     {
@@ -84,10 +84,10 @@
       "avg_edge_cost": 2437743.557,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 5.6390762329101565e-05,
-        "A*": 0.00019958972930908203,
-        "Random Forest": 0.013811335563659669,
-        "XGBoost": 0.0008994245529174805
+        "Dijkstra": 7.274150848388672e-05,
+        "A*": 0.0002135467529296875,
+        "Random Forest": 0.19977394104003907,
+        "XGBoost": 0.012535061836242676
       }
     },
     {
@@ -98,10 +98,10 @@
       "avg_edge_cost": 20566751.842291668,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 0.0001324272155761719,
-        "A*": 0.0008055830001831055,
-        "Random Forest": 0.014914360046386719,
-        "XGBoost": 0.0016463422775268555
+        "Dijkstra": 0.0001476144790649414,
+        "A*": 0.000824594497680664,
+        "Random Forest": 1.33442786693573,
+        "XGBoost": 0.14656286239624022
       }
     },
     {
@@ -112,10 +112,10 @@
       "avg_edge_cost": 4673275.518079711,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 0.00019129276275634766,
-        "A*": 0.0005729436874389648,
-        "Random Forest": 0.014866957664489746,
-        "XGBoost": 0.0019672346115112305
+        "Dijkstra": 0.00021437644958496093,
+        "A*": 0.0005934333801269531,
+        "Random Forest": 1.7430532789230346,
+        "XGBoost": 0.2278985595703125
       }
     },
     {
@@ -126,10 +126,10 @@
       "avg_edge_cost": 4777603.30377551,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 8.824348449707031e-05,
-        "A*": 0.0002962160110473633,
-        "Random Forest": 0.014161643981933593,
-        "XGBoost": 0.0011535120010375977
+        "Dijkstra": 0.00010098457336425781,
+        "A*": 0.00031970977783203126,
+        "Random Forest": 0.5321985721588135,
+        "XGBoost": 0.039814939498901365
       }
     },
     {
@@ -140,10 +140,10 @@
       "avg_edge_cost": 19007691.196306307,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 0.00011610031127929687,
-        "A*": 0.0005600786209106445,
-        "Random Forest": 0.014496927261352538,
-        "XGBoost": 0.001338791847229004
+        "Dijkstra": 0.00012941360473632811,
+        "A*": 0.000569610595703125,
+        "Random Forest": 0.986289324760437,
+        "XGBoost": 0.08818154335021973
       }
     },
     {
@@ -154,10 +154,10 @@
       "avg_edge_cost": 4712253.061937173,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 0.00013876914978027343,
-        "A*": 0.0004563760757446289,
-        "Random Forest": 0.014688196182250977,
-        "XGBoost": 0.0016147089004516601
+        "Dijkstra": 0.00015529632568359375,
+        "A*": 0.000473475456237793,
+        "Random Forest": 1.108564977645874,
+        "XGBoost": 0.12497011184692383
       }
     },
     {
@@ -168,10 +168,10 @@
       "avg_edge_cost": 18184653.5975,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 8.929252624511718e-05,
-        "A*": 0.00034893035888671875,
-        "Random Forest": 0.014080958366394043,
-        "XGBoost": 0.0010975551605224608
+        "Dijkstra": 0.00010153770446777344,
+        "A*": 0.0003586244583129883,
+        "Random Forest": 0.86380042552948,
+        "XGBoost": 0.061276097297668454
       }
     },
     {
@@ -182,10 +182,10 @@
       "avg_edge_cost": 4784554.181363637,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 0.00011915206909179687,
-        "A*": 0.0003701639175415039,
-        "Random Forest": 0.014623279571533204,
-        "XGBoost": 0.0014188241958618163
+        "Dijkstra": 0.00013390064239501953,
+        "A*": 0.00038589000701904296,
+        "Random Forest": 0.9274751329421997,
+        "XGBoost": 0.09285933494567872
       }
     },
     {
@@ -196,10 +196,10 @@
       "avg_edge_cost": 2412806.072,
       "total_problems": 50,
       "avg_computation_time": {
-        "Dijkstra": 5.763053894042969e-05,
-        "A*": 0.00020246505737304689,
-        "Random Forest": 0.013925204277038574,
-        "XGBoost": 0.0008876371383666992
+        "Dijkstra": 6.55221939086914e-05,
+        "A*": 0.00019631385803222656,
+        "Random Forest": 0.24561744689941406,
+        "XGBoost": 0.014533190727233887
       }
     }
   ],
